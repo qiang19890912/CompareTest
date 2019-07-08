@@ -7,6 +7,9 @@ using Xunit;
 
 namespace TestCompare.XTest
 {
+    /// <summary>
+    /// Collection mean that fixture instance is shared in different test class
+    /// </summary>
     [Collection("SomeFixture")]
     public class XUnitTestDemo3
     {
