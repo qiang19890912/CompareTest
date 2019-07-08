@@ -9,6 +9,7 @@ namespace TestCompare.XTest
 {
     /// <summary>
     /// Collection mean that fixture instance is shared in different test class
+    /// Test SSH key to clone repo
     /// </summary>
     [Collection("SomeFixture")]
     public class XUnitTestDemo3
